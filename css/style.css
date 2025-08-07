@@ -27,3 +27,56 @@ header {
 .logo-img {
   margin: 0 15px;
 }
+/* hero section */
+
+.hero-section {
+  background-image: url(../images/bg-image.jpg);
+  height: 649px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 135px 435px 90px;
+  align-items: center;
+}
+.hero-title {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 4px;
+}
+.hero-p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  width: 504px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #00afdb;
+  width: 184px;
+  height: 46px;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary a {
+  color: white;
+}
+.hero-text {
+  height: 221px;
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  width: 170px;
+  height: 20px;
+  margin-top: 183px;
+}
