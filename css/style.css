@@ -20,13 +20,27 @@ header {
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
+  position: relative;
 }
-.nav-ul li:first-child .nav-link {
-  border-bottom: 1px solid white;
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
 }
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 .logo-img {
   margin: 0 15px;
 }
+
 /* hero section */
 
 .hero-section {
