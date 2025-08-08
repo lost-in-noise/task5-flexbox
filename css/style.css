@@ -94,3 +94,37 @@ header {
   height: 20px;
   margin-top: 183px;
 }
+
+/* secnd-section */
+.secnd-section {
+  background-color: #ffffff;
+  height: 842px;
+  padding: 120px 269px 140px;
+}
+.scnd-section-block {
+  height: 582px;
+  display: flex;
+  align-items: center;
+  gap: 248px;
+}
+.scnd-section-text-box h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #373737;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 368px;
+}
+.scnd-section-text-box p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4e4e4e;
+  width: 407px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.scnd-section-text-box p span {
+  font-weight: 500;
+}
