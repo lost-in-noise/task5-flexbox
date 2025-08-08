@@ -82,6 +82,10 @@ header {
 .btn-primary a {
   color: white;
 }
+.btn-primary:hover {
+  background: #0099cc;
+}
+
 .hero-text {
   height: 221px;
   width: 730px;
@@ -184,4 +188,54 @@ header {
 }
 .sec-4-block-text p span {
   font-weight: 500;
+}
+
+/* newsletter-section */
+.newsletter-section {
+  height: 524px;
+  background-image: url(../images/pexels.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-block {
+  text-align: center;
+  color: #ffffff;
+  height: 104px;
+}
+.newsletter-block h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Form styling */
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input {
+  padding: 13px 0 13px 24px;
+  width: 406px;
+  height: 46px;
+  border: none;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 13px 25px;
+  border: none;
+  background: #00afdb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  height: 46px;
+}
+
+.newsletter-form button:hover {
+  background: #0099cc;
 }
