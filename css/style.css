@@ -96,12 +96,14 @@ header {
 }
 
 /* secnd-section */
-.secnd-section {
+.secnd-section,
+.section-4 {
   background-color: #ffffff;
   height: 842px;
   padding: 120px 269px 140px;
 }
-.scnd-section-block {
+.scnd-section-block,
+.sec-4-block {
   height: 582px;
   display: flex;
   align-items: center;
@@ -162,4 +164,24 @@ header {
   line-height: 140%;
   color: #4e4e4e;
   text-align: center;
+}
+/* section 4 */
+.sec-4-block-text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+.sec-4-block-text p {
+  color: #4e4e4e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 407px;
+}
+.sec-4-block-text p span {
+  font-weight: 500;
 }
