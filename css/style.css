@@ -288,3 +288,30 @@ header {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+/* footer */
+.footer-wrapper {
+  height: 185px;
+  background-color: #000000;
+  padding: 0 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-ul-footer {
+  display: flex;
+}
+.footer-nav-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  border-right: 1px solid #4e4e4e;
+  padding: 0 20px;
+}
+footer p {
+  color: #818181;
+  font-size: 14px;
+  font-weight: 400;
+}
+.last-link {
+  border: none;
+}
