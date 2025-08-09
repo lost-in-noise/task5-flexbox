@@ -239,3 +239,52 @@ header {
 .newsletter-form button:hover {
   background: #0099cc;
 }
+
+/* app section */
+.app-section {
+  height: 464px;
+  background-color: #f5f6f7;
+  padding: 120px 0 180px;
+}
+.btn-primary.app {
+  position: relative;
+  padding: 0;
+  width: 186px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+.btn-primary.app .app-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 59px;
+  height: 46px;
+  background-color: #009cc2;
+  padding-top: 13px;
+}
+.app-section-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-buttons-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.app-section-block h2 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+.app-section-block p {
+  color: #4e4e4e;
+  font-weight: 400;
+  font-size: 14px;
+  width: 480px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
