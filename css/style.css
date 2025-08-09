@@ -296,6 +296,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .nav-ul-footer {
   display: flex;
@@ -314,4 +315,13 @@ footer p {
 }
 .last-link {
   border: none;
+  padding-right: 0;
+}
+.first-link {
+  padding-left: 0;
+}
+.footer-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
