@@ -21,6 +21,10 @@ header {
   font-size: 14px;
   font-weight: 400;
   position: relative;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  font-weight: bold;
 }
 .nav-link::after {
   content: "";
