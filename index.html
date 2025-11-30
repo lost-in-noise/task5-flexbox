@@ -66,13 +66,56 @@
       <section class="section-slider">
         <div class="slider-section-block">
           <div class="user-card">
-            <img src="images/userpic.svg" alt="user picture" />
+            <img
+              src="images/userpic.svg"
+              alt="user picture"
+              style="
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                background: #ddd;
+              "
+            />
             <h3>our community</h3>
             <p>
               A hacker is any skilled computer expert that uses their technical
               knowledge to overcome a problem, but it can also mean a security
               hacker in common language
             </p>
+          </div>
+
+          <div class="slider-container">
+            <div class="slider-header">
+              <div class="slider-controls">
+                <button id="prevBtn" class="nav-btn">❮</button>
+                <span id="slide-counter">1 / 5</span>
+                <button id="nextBtn" class="nav-btn">❯</button>
+              </div>
+            </div>
+
+            <div class="slider-track" id="sliderTrack">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80"
+                alt="Slide 1"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&q=80"
+                alt="Slide 2"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&q=80"
+                alt="Slide 3"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&q=80"
+                alt="Slide 4"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&q=80"
+                alt="Slide 5"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -145,5 +188,6 @@
       /></a>
       <p>by TonYem for RSS at 2020</p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
